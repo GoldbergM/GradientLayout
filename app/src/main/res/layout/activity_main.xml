@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.github.goldberg.movingGradientLayout.MovingGradientLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gradientLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:colors="@array/colors"
+    app:cyclePeriod="1800"
+    app:isOtherMode="true"
+    tools:context="com.github.goldberg.movingGradientLayout.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="One"
+        android:textColor="#ffffff" />
+</com.github.goldberg.movingGradientLayout.MovingGradientLayout>

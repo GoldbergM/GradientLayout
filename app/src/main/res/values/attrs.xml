@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MovingGradientLayout">
+        <attr name="cyclePeriod" format="integer"></attr>
+        <attr name="colors" format="reference"></attr>
+        <attr name="isGradient" format="boolean"></attr>
+        <attr name="isOtherMode" format="boolean"></attr>
+
+    </declare-styleable>
+
+</resources>
